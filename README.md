@@ -32,6 +32,8 @@ During installation, the script will prompt you for three simple variables:
 
 The script automatically detects your public IP address, configures the strict node naming conventions required by the Substrate network, and launches the `quip-validator`, `quip-dashboard`, and `quip-cpu` containers in the background.
 
+![Quip Node Installation Status](quip-node.png)
+
 ## 🔍 Check Node Status
 
 Once the installation completes, it may take 15-30 minutes for the validator to sync and report as "healthy" before mining begins. You can check your node's local API status at any time by running:
