@@ -20,7 +20,7 @@ This script streamlines the entire process: it handles system updates, Docker in
 Connect to your server via SSH and run this single command to download and execute the script:
 
 ```bash
-wget -O install.sh [https://raw.githubusercontent.com/JackTheGit/quip-node-autoinstall/main/install.sh](https://raw.githubusercontent.com/JackTheGit/quip-node-autoinstall/main/install.sh) && chmod +x install.sh && sudo ./install.sh
+wget -O install.sh wget -O install.sh https://raw.githubusercontent.com/JackTheGit/quip-node-autoinstall/main/install.sh && chmod +x install.sh && sudo ./install.sh && chmod +x install.sh && sudo ./install.sh
 ```
 
 ## 🛠️ Setup Process
@@ -39,6 +39,6 @@ The script automatically detects your public IP address, configures the strict n
 Once the installation completes, it may take 15-30 minutes for the validator to sync and report as "healthy" before mining begins. You can check your node's local API status at any time by running:
 
 ```bash
-curl -fsS [http://127.0.0.1:20049/api/v1/status](http://127.0.0.1:20049/api/v1/status)
+curl -fsS http://127.0.0.1:20049/api/v1/status
 ```
 *Look for `"is_mining": true` and `"proofs_submitted"` to track your progress!*
