@@ -20,7 +20,7 @@ This script streamlines the entire process: it handles system updates, Docker in
 Connect to your server via SSH and run this single command to download and execute the script:
 
 ```bash
-wget -O install.sh wget -O install.sh https://raw.githubusercontent.com/JackTheGit/quip-node-autoinstall/main/install.sh && chmod +x install.sh && sudo ./install.sh && chmod +x install.sh && sudo ./install.sh
+wget -O install.sh https://raw.githubusercontent.com/JackTheGit/quip-node-autoinstall/main/install.sh && chmod +x install.sh && sudo ./install.sh
 ```
 
 ## 🛠️ Setup Process
